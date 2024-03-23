@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.computer-nav{
+    float: right;
+}
+
+body{
+    font-family: 'geologica', sans-serif;
+    color: white;
+    background-color:#252525;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.link{
+    margin-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.active-link{
+    margin-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.active-link a{
+    text-decoration: none;
+    color: #ffca00;
+    transition: 0.5s ease-in-out;
+}
+
+.active-link:hover{
+    opacity:0.5;
+}
+
+.link:hover{
+    opacity:0.5;
+}
+
+.contact-no:hover{
+    opacity:0.5;
+}   
+
+.contact-no{
+    margin-left:20px;
+    color: #ffca00;
+    transition: 0.5s ease-in-out;
+}
+
+.ultimate{
+    
+    color: #ffca00;
+    font-size: 16px;
+    display: inline;
+}
+
+header{
+    padding: 2rem;
+}
+
+.about-article{
+    padding: 3rem;
+    padding-left: 5.5rem;
+    padding-bottom: 0;
+    width: 50%;
+    float: left;
+}
+
+.about-me{
+    font-size: 1.5rem;
+}
+
+.hr{
+    width: 15%;
+    margin-top: 0.5rem;
+    background-color: #ffca00;
+    border-radius: 10%;
+    border-color: #ffca00;
+    transition: 0.5s ease-in-out;
+}
+
+.about{
+    font-size: 15px;
+    margin-top: 3%;
+    font-weight:  100;
+}
+
+.download-button{
+    border:1px solid #ffca00;
+    background-color: #ffca00;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+
+    transition: 0.5s ease;
+}
+
+.download-button:hover{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 3px;
+}
+
+.download-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.download{
+    padding-left: 4px;
+}
+
+.note{
+    font-family:'geologica', sans-serif;
+}
+
+.img{
+    float: right;
+    width: 40%;
+    white-space: nowrap;
+
+}
